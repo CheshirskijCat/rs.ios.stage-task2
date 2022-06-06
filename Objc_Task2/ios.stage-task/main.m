@@ -6,6 +6,9 @@ int main(int argc, char * argv[]) {
     @autoreleasepool {
         // Setup code that might create autoreleased objects goes here.
         appDelegateClassName = NSStringFromClass([AppDelegate class]);
+//        NSString result = @"";
+        //    NSString *str = [NSString stringWithFormat:@"%x", n];
+
     }
     return UIApplicationMain(argc, argv, nil, appDelegateClassName);
 }
